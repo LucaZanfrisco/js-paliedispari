@@ -18,11 +18,11 @@ function pariDisapri(somma){
     return check;
 }
 
-// Scelta da parte dell'utente di pari o dispari
-let scelta;
-// do{
+// Inserimento e controllo della scelta da parte dell'utente di pari o dispari
+let scelta = '';
+do{
     scelta = prompt("Scegliere tra 'pari' o 'dispari'"); 
-// }while(scelta !== 'pari' || scelta !== 'dispari');
+}while(scelta !== 'pari' && scelta !== 'dispari');
 
 // Inserimento e controllo di un numero compreso tra 1 e 5
 let numeroUtente = 0;
