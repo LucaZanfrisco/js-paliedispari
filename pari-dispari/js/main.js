@@ -44,11 +44,11 @@ const sommaTotale = sommaNumeri(numeroUtente,numeroCPU);
 console.log("Somma: " + sommaTotale);
 
 // Chiamata alla funzione che controlla se la somma è pari o dispari
-const messaggio = pariDisapri(sommaTotale);
+const check = pariDisapri(sommaTotale);
 
 // Controllo della scelta dell'utente
-if(messaggio === scelta){
-    console.log('VINTO');
+if(scelta === check){
+    console.log('Utente Vince');
 }else {
-    console.log('PERSO');
+    console.log('CPU Vince');
 }
